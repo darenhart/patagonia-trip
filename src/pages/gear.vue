@@ -1,6 +1,10 @@
 <template>
   <q-page padding>
-    <img alt="Gear" src="~assets/gear.jpg">
+    <img class="imagem" alt="Gear" src="~assets/gear.jpg" width="100%">
+    <p class="caption">
+      Acesse o <a target="_blank" href="https://lighterpack.com/r/fct9wm">lighterpack</a>
+    </p>
+    <iframe width="100%" height="4000" src="https://lighterpack.com/r/fct9wm"></iframe>
   </q-page>
 </template>
 
@@ -11,4 +15,6 @@ export default {
 </script>
 
 <style>
+.imagem
+  width: 10px
 </style>

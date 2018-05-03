@@ -46,6 +46,14 @@
           <q-item-side icon="settings" />
           <q-item-main label="Equipamento" sublabel="" />
         </q-item>
+        <q-item to="/gallery">
+          <q-item-side icon="photo library" />
+          <q-item-main label="Galeria" sublabel="" />
+        </q-item>
+        <q-item to="/video">
+          <q-item-side icon="play circle filled" />
+          <q-item-main label="Vídeo" sublabel="" />
+        </q-item>
         <q-item to="/log">
           <q-item-side icon="list" />
           <q-item-main label="Log diário" sublabel="" />
