@@ -117,6 +117,12 @@ export default {
         desc: 'Últimos dias',
         img: require('assets/albums/ultimos-dias.jpg'),
         link: 'https://photos.app.goo.gl/LTOfevRPdHvwQ7r92'
+      },
+      {
+        name: 'Pós Retorno',
+        desc: '',
+        img: require('assets/albums/retorno.jpg'),
+        link: 'https://photos.app.goo.gl/8LeRLeN4lfcuTGgG3'
       }
     ]
   })
