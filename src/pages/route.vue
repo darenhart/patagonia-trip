@@ -1,12 +1,23 @@
 <template>
   <q-page padding>
-    <!-- content -->
-    <p class="caption">
-      Acesse o <a target="_blank" href="https://www.google.com/maps/d/viewer?mid=1_JDlbahMjzcIFIkYdwVplNBTrXXGvek3&ll=-41.58713335061735%2C-58.96162026249999&z=5">Mapa</a>
-    </p>
     <a href="https://drive.google.com/open?id=1_JDlbahMjzcIFIkYdwVplNBTrXXGvek3&usp=sharing" target="_blank">
       <img width="100%" alt="Rota" src="~assets/rota.png">
     </a>
+    <q-list no-border >
+      <q-item>
+        <q-item-side icon="directions bike" color="primary">
+        </q-item-side>
+        <q-item-main label="6720 km Bicicleta" />
+      </q-item>
+      <q-item>
+        <q-item-side icon="directions car" color="warning"/>
+        <q-item-main label="2700 km Carona" />
+      </q-item>
+      <q-item>
+        <q-item-side icon="directions bus" color="warning" />
+        <q-item-main label="1150 km Bus" />
+      </q-item>
+    </q-list>
   </q-page>
 </template>
 
