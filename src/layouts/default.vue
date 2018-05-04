@@ -31,14 +31,14 @@
         link
         inset-delimiter
       >
-        <q-list-header>Menu</q-list-header>
+        <q-list-header></q-list-header>
         <!--
         <q-item to="/">
           <q-item-side icon="home" />
           <q-item-main label="Home" />
         </q-item>
         -->
-        <q-item to="/">
+        <q-item to="/" class="home">
           <q-item-side icon="timeline" />
           <q-item-main label="Rota" sublabel="" />
         </q-item>
@@ -90,4 +90,10 @@ export default {
 </script>
 
 <style>
+.home.q-item.router-link-active {
+  background-color: transparent;
+}
+.home.q-item.router-link-active:hover {
+  background-color: rgba(189,189,189,0.4);
+}
 </style>

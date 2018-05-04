@@ -1,5 +1,5 @@
 <template>
-  <q-page padding>
+  <q-page class="flex flex-center" >
     <q-card v-for="album in albums"
       :key="album.id"
       inline
@@ -72,9 +72,51 @@ export default {
       },
       {
         name: 'Argentina',
-        desc: 'Provincia Mendoza',
-        img: require('assets/albums/mendoza.jpg'),
-        link: 'https://photos.app.goo.gl/yRDItg28sKcZe5kB3'
+        desc: 'Neuquén, norte da Patagônia',
+        img: require('assets/albums/neuquen.jpg'),
+        link: 'https://photos.app.goo.gl/s9jRi59zQtJuw4Pk2'
+      },
+      {
+        name: 'Argentina',
+        desc: '7 lagos e Bariloche',
+        img: require('assets/albums/lagos.jpg'),
+        link: 'https://photos.app.goo.gl/XNWxm945LxK59tDk2'
+      },
+      {
+        name: 'Argentina - Chile',
+        desc: 'Parque dos Alerces e Carretera Austral',
+        img: require('assets/albums/austral.jpg'),
+        link: 'https://photos.app.goo.gl/owQ46KX4YtjemQ5h1'
+      },
+      {
+        name: 'Chile',
+        desc: 'Puerto Ibanez, Chile Chico',
+        img: require('assets/albums/ibanez.jpg'),
+        link: 'https://photos.app.goo.gl/DhfdlMOMBTTZL2Nk2'
+      },
+      {
+        name: 'Argentina',
+        desc: 'El Chalten, El Calafate',
+        img: require('assets/albums/calafate.jpg'),
+        link: 'https://photos.app.goo.gl/w77vzFAY2H2OdWDi1'
+      },
+      {
+        name: 'Argentina',
+        desc: 'Calafate à Rio Gallegos',
+        img: require('assets/albums/gallegos.jpg'),
+        link: 'https://photos.app.goo.gl/SZvpwr8bEe0e5LdA3'
+      },
+      {
+        name: 'Argentina',
+        desc: 'Costa da Argentina',
+        img: require('assets/albums/valdes.jpg'),
+        link: 'https://photos.app.goo.gl/u16aCzwvdAz0m4n92'
+      },
+      {
+        name: 'Argentina - Uruguai',
+        desc: 'Últimos dias',
+        img: require('assets/albums/ultimos-dias.jpg'),
+        link: 'https://photos.app.goo.gl/LTOfevRPdHvwQ7r92'
       }
     ]
   })

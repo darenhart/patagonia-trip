@@ -1,7 +1,7 @@
 <template>
   <q-page padding>
     <a href="https://drive.google.com/open?id=1_JDlbahMjzcIFIkYdwVplNBTrXXGvek3&usp=sharing" target="_blank">
-      <img width="100%" alt="Rota" src="~assets/rota.png">
+      <img width="100%" alt="Rota" src="~assets/rota.jpg">
     </a>
     <q-list no-border >
       <q-item>
