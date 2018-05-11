@@ -1,2 +1,2 @@
-# patagonia-trip
-Site PWA mobile first feito com Quasar + Vue.js sobre minha Viagem de bicicleta à Patagônia
+# Cycling Patagonia
+Website PWA made with Quasar + Vue.js about my Patagonia bike tour in 2017-2018
