@@ -72,6 +72,12 @@ export default {
       },
       {
         name: 'Argentina',
+        desc: 'Provincia Mendoza',
+        img: require('assets/albums/mendoza.jpg'),
+        link: 'https://photos.app.goo.gl/yRDItg28sKcZe5kB3'
+      },
+      {
+        name: 'Argentina',
         desc: 'Neuquén, norte da Patagônia',
         img: require('assets/albums/neuquen.jpg'),
         link: 'https://photos.app.goo.gl/s9jRi59zQtJuw4Pk2'
