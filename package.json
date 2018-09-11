@@ -10,8 +10,7 @@
     "dev": "quasar dev",
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0",
-    "build": "quasar build",
-    "deploy": "push-dir --dir=dist/spa-mat --remote=gh-pages --branch=master"
+    "build": "quasar build"
   },
   "dependencies": {
     "axios": "^0.18.0",

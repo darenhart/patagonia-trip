@@ -10,8 +10,6 @@ npm run dev
 ----
 ```
 npm run build
-npm run deploy
-OR
 git checkout gh-pages
 cp dist/spa-mat/* . -R
 // git add modified files
