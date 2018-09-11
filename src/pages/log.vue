@@ -84,6 +84,12 @@ export default {
     ],
     tableData: [
       {
+        'dia': '12/10/17',
+        'local': 'estrela',
+        'km': 0,
+        'pernoite': 'casa'
+      },
+      {
         'dia': '13/10/17',
         'local': 'serio',
         'km': 40,

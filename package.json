@@ -7,12 +7,14 @@
   "author": "Daniel Werle Arenhart <arenhart.daniel@gmail.com>",
   "private": true,
   "scripts": {
+    "dev": "quasar dev",
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0",
     "deploy": "push-dir --dir=dist/spa-mat --remote=gh-pages --branch=master"
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "quasar": "0.0.18"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
