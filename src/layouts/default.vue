@@ -58,6 +58,10 @@
           <q-item-side icon="list" />
           <q-item-main label="Log diário" sublabel="" />
         </q-item>
+        <q-item @click.native="openURL('https://darenhart.github.io/patagonia-journal/')">
+          <q-item-side icon="subject" />
+          <q-item-main label="Relatos" />
+        </q-item>
         <!--
         <q-item @click.native="openURL('https://github.com/darenhart')">
           <q-item-side icon="phone" />
