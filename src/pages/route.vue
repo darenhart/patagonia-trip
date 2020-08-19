@@ -5,7 +5,7 @@
     </a>
     <q-list no-border >
       <q-item>
-        <q-item-side icon="directions bike" color="primary">
+        <q-item-side icon="directions bike" color="green">
         </q-item-side>
         <q-item-main label="6720 km Bicicleta" />
       </q-item>
