@@ -62,6 +62,10 @@
           <q-item-side icon="subject" />
           <q-item-main label="Relatos" />
         </q-item>
+        <q-item to="/other">
+          <q-item-side icon="list" />
+          <q-item-main label="Outras viagens" sublabel="" />
+        </q-item>
         <!--
         <q-item @click.native="openURL('https://github.com/darenhart')">
           <q-item-side icon="phone" />

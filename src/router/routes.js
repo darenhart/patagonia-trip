@@ -9,7 +9,8 @@ export default [
       { path: 'gear', component: () => import('pages/gear') },
       { path: 'gallery', component: () => import('pages/gallery') },
       { path: 'video', component: () => import('pages/video') },
-      { path: 'log', component: () => import('pages/log') }
+      { path: 'log', component: () => import('pages/log') },
+      { path: 'other', component: () => import('pages/other') }
     ]
   },
 
